@@ -1,0 +1,250 @@
+:root {
+    --bs-green: #5de253;
+    --bs-blue: #0da8ff;
+    --bs-gray: #F8F8F8;
+    --bs-dark-gray: #E4E4E4;
+    --bs-light-gray: #B6B6B6;
+    --font-color: #606060;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.fondo {
+    background-image: url(../images/fondo_celular_portada.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mb-10 {
+    margin-bottom: 250px;
+}
+
+.btn-inicio {
+    width: 300px;
+    height: 85px;
+    font-size: 22px;
+    border-radius: 40px;
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.centrado {
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/* SALUDO */
+
+.text-saludo {
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.text-saludo span {
+    font-weight: 800;
+}
+
+.puntos {
+    color: var(--bs-green);
+    font-size: 90px;
+    font-weight: 800;
+
+}
+
+.equivalente {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.equivalente span {
+    color: var(--bs-blue);
+    font-weight: bold;
+
+}
+
+.card {
+    border-radius: 30px;
+    border: 1px solid var(--bs-dark-gray);
+    width: 380px;
+    -webkit-box-shadow: 3px 11px 7px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 11px 7px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 11px 7px -9px rgba(0, 0, 0, 0.75);
+}
+
+.card h2 {
+    color: var(--font-color);
+}
+
+.saludo {
+    margin-bottom: 50px;
+}
+
+.img-superior {
+    display: flex;
+}
+
+.img-afiliado {
+    width: 200px;
+}
+
+.img-puntos {
+    margin: 10px 0;
+    width: 70px;
+}
+
+.puntos-afiliado{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-sin-registrar{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.img-notificacion{
+    width: 300px;
+}
+
+
+/* consulta */
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.fondo-dark-gray {
+    background-color: var(--bs-gray);
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.start {
+    text-align: start;
+}
+
+.btn-ingresar {
+    padding: 5px 0;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: var(--bs-green);
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.input-ingresar {
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: var(--bs-dark-gray);
+    color: white;
+    font-weight: 500;
+    border: var(--bs-light-gray) 1px solid;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text {
+    color: var(--bs-green);
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.text span {
+    font-weight: 800;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.text-dni {
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+
+.text-dni span {
+    font-weight: bold;
+}
+
+.content-puntos{
+    margin-top: 50px;
+    width: 80%;
+}
+
+.content-consulta{
+    width: 100%;
+}
+
+.img-logo-negativo{
+    width: 180px;
+}
+
+.img-logo-puntos{
+    width: 250px;
+}
+
+.text-puntos {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.consulta {
+    display: none;
+    width: 100%;
+}
+
+.img-logo {
+    width: 150px;
+}
+
+.text-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card-consulta {
+    height: 100vh;
+}
+
+.content-inicio{
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.height{
+    height: 70vh;
+}
+
+.content-movile{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
